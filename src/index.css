@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  }
+  body {
+    height: 100svh;
+    overflow: hidden;
+  }
+}
