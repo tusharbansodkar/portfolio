@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import TypewriterEffect from "./TypewriterEffect";
+// import { FaLinkedin } from "react-icons/fa";
 
 const Intro = () => {
   return (
@@ -12,7 +12,18 @@ const Intro = () => {
         <h1 className="text-5xl font-semibold text-white mb-5">
           Tushar Bansodkar
         </h1>
-        <h1 className="text-white text-">
+        <TypewriterEffect
+          text={[
+            "Front End Developer",
+            "React Developer",
+            "Full Stack Developer",
+            "MERN Stack Enthusiast",
+          ]}
+          speed={200}
+          deleteSpeed={100}
+          loop={true}
+        />
+        {/* <h1 className="text-white text-">
           <Typewriter
             options={{
               strings: [
@@ -25,8 +36,8 @@ const Intro = () => {
               loop: true,
             }}
           />
-        </h1>
-        <div className="flex space-x-3 mt-5">
+        </h1> */}
+        {/* <div className="flex space-x-3 mt-5">
           <button className="border-2 border-gray-500 p-2 rounded-lg">
             <span>
               <FaLinkedin />
@@ -37,7 +48,7 @@ const Intro = () => {
           <button>Github</button>
 
           <button>Download CV</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
