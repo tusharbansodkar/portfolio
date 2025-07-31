@@ -1,3 +1,5 @@
+import { Button } from "../ui/button";
+
 const Navbar = () => {
   return (
     <div className="relative w-full flex items-center justify-between px-10 py-4 z-10 text-white">
@@ -7,7 +9,9 @@ const Navbar = () => {
         <li>About</li>
         <li>Skills</li>
         <li>Projects</li>
-        <li className="">Download CV</li>
+        <li>
+          <Button variant="secondary">Download CV</Button>
+        </li>
       </ul>
     </div>
   );
