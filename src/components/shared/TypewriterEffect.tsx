@@ -54,7 +54,7 @@ const TypewriterEffect: React.FC<TypewriterEffectProps> = ({
   }, [text, speed, index, isDeleting, deleteSpeed, loop, displayText]);
 
   return (
-    <span className="text-white text-lg border-r-2 animate-custom-blink">
+    <span className="text-white text-md md:text-lg border-r-2 animate-custom-blink">
       {displayText}
     </span>
   );
