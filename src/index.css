@@ -9,7 +9,7 @@
   }
   body {
     height: 100svh;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 }
 

@@ -4,8 +4,8 @@ import { FaLinkedin, FaCloudDownloadAlt, FaGithub } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <div className="absolute top-0 left-0 flex justify-between items-center z-8 m-auto w-[100%] h-[400px] md:h-[500px] overflow-hidden">
-      <div className="leading-5 ml-6 md:ml-15">
+    <div className="absolute top-0 left-0 flex justify-center md:justify-between items-center z-8 m-auto w-[100%] h-[400px] md:h-[500px] overflow-hidden">
+      <div className="leading-5 md:ml-15">
         <h1 className="font-[Londrina_Outline] text-white text-3xl md:text-5xl mb-5 md:mb-8">
           Hello, I'm
         </h1>
