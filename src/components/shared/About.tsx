@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <div className="absolute top-[420px] w-full">
