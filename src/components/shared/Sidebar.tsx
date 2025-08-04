@@ -1,4 +1,4 @@
-const Sidebar = ({ isOpen }) => {
+const Sidebar = ({ isOpen }: { isOpen: boolean }) => {
   return (
     <div
       className="w-[60%] h-svh absolute left-0 top-16 justify-center rounded-tr-md rounded-br-md bg-[#0074B7]/90 transition-transform duration-300 ease-in-out"
