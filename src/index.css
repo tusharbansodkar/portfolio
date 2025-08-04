@@ -8,8 +8,9 @@
     font-family: "Ubuntu", Arial, Helvetica, sans-serif;
   }
   body {
-    height: 100svh;
+    height: 90svh;
     /* overflow: hidden; */
+    background: green;
   }
 }
 
@@ -53,7 +54,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: #bfd7ed;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
